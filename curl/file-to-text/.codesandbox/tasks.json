@@ -1,0 +1,21 @@
+{
+  "setupTasks": [],
+  "tasks": {
+    "run": {
+      "name": "Basic example",
+      "command": "bash ./run.bash",
+      "runAtStart": false
+    },
+    "stream": {
+      "name": "Streaming example",
+      "command": "bash ./stream.bash",
+      "runAtStart": false
+    },
+    "webhook": {
+      "name": "Webhook example",
+      "command": "bash ./webhook.bash",
+      "runAtStart": false,
+      "preview": {}
+    }
+  }
+}
