@@ -1,0 +1,27 @@
+{
+  "setupTasks": [
+    "pip install -r requirements.txt"
+  ],
+  "tasks": {
+    "run": {
+      "name": "Basic example",
+      "command": "python run.py",
+      "runAtStart": false
+    },
+    "stream": {
+      "name": "Streaming example",
+      "command": "python stream.py",
+      "runAtStart": false
+    },
+    "webhook": {
+      "name": "Webhook example",
+      "command": "python webhook.py",
+      "runAtStart": false
+    },
+    "browser": {
+      "name": "Streaming browser example",
+      "command": "python browser.py",
+      "runAtStart": false
+    }
+  }
+}
