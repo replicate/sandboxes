@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+exec find . -name '*.bash' | xargs shfmt -w
+
