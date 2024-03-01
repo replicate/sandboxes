@@ -1,0 +1,32 @@
+{
+  "name": "text-in-text-out",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "browser": "nodemon browser.js",
+    "run": "nodemon run.js",
+    "stream": "nodemon stream.js",
+    "webhook": "nodemon webhook.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.8.2",
+    "hono": "^4.0.8",
+    "replicate": "^0.27.1"
+  }
+}
